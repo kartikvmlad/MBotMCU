@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1b430ce0-1d42-4e91-9867-a72291495b13")
+	(paper "A4")
+	(title_block
+		(company "Astra Robotics")
+	)
+	(lib_symbols)
+)
