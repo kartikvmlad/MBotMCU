@@ -6,7 +6,8 @@
 
 The **Astra Robotics Controller** bridges the gap between prototyping boards and industrial PLCs. Built around the Raspberry Pi **RP2040** microcontroller, it integrates high-current motor drivers, redundant sensing, and non-volatile "Black Box" data logging into a unified, vibration-resistant PCB.
 
-To view the schematic, download the repository and open the file **MBot.kicad_sch** in KiCad 
+-> To view the schematic, download the repository and open the file **MBot.kicad_sch** in KiCad 
+
 ---
 
 ## 📋 Table of Contents
