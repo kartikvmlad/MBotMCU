@@ -3,7 +3,9 @@
     "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_netclasses": [],
+    "hidden_netclasses": [
+      "GND"
+    ],
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -13,7 +15,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.6700000166893005
     },
     "selection_filter": {
       "dimensions": true,
@@ -73,6 +75,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -85,7 +89,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       186,
@@ -97,7 +103,9 @@
       112,
       83,
       112,
-      112
+      112,
+      112,
+      249
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

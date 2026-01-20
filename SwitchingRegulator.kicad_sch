@@ -559,6 +559,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -1153,363 +1321,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SS54FSH:SS54FSH"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SS54FSH"
-				(at -5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SS54FSH:SODFL4725X110N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Taiwan Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOD-128-2 Taiwan Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SS54FSH/taiwan/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "B2103"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS54FSH/taiwan/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "SS54FSH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "5A, 40V, Automotive Planar Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Taiwan Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SS54FSH_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.016) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1884,7 +1695,7 @@
 	)
 	(text "47uH/5A\n"
 		(exclude_from_sim no)
-		(at 192.532 103.886 0)
+		(at 193.294 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1897,12 +1708,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0294cc76-4b0f-4331-8e36-c1b6c20947fa")
-	)
-	(junction
-		(at 203.2 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "157f70a7-c019-49ed-bed7-e8afb475e3e5")
 	)
 	(junction
 		(at 88.9 106.68)
@@ -1941,16 +1746,22 @@
 		(uuid "5ff980c6-a3a2-4151-9512-526d4e73bea4")
 	)
 	(junction
+		(at 185.42 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7429dbd0-80b9-433a-ab91-14d3362aae53")
+	)
+	(junction
 		(at 232.41 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7506719e-e231-4f49-a4c5-df845a5064e1")
 	)
 	(junction
-		(at 182.88 106.68)
+		(at 207.01 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bfcddffe-f4b0-4e58-9ec4-ae899bccc214")
+		(uuid "bef2330f-c230-4a93-a107-718e94509a70")
 	)
 	(junction
 		(at 232.41 123.19)
@@ -1965,16 +1776,16 @@
 		(uuid "c9a3bd86-f1f9-4c7c-b52a-91f6b5b14b2e")
 	)
 	(junction
-		(at 203.2 106.68)
+		(at 207.01 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d01265d1-14d0-454d-b848-fe52a55381f3")
+		(uuid "dd9ddb90-ed88-4b1a-b83b-2ce04b64c042")
 	)
 	(junction
-		(at 182.88 140.97)
+		(at 185.42 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d1a4cb1e-4e10-4a43-b5a1-ff25cbdd16c9")
+		(uuid "dfcc1c72-56db-40cc-a958-e16d64c521f1")
 	)
 	(junction
 		(at 69.85 97.79)
@@ -2026,26 +1837,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 92.71) (xy 88.9 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c31a91c-80aa-420c-ac1f-01f93aa5cbe3")
-	)
-	(wire
-		(pts
-			(xy 195.58 106.68) (xy 203.2 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e27acbb-4633-4390-9d01-2d9f5f8ed850")
-	)
-	(wire
-		(pts
 			(xy 215.9 140.97) (xy 232.41 140.97)
 		)
 		(stroke
@@ -2076,7 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 106.68) (xy 182.88 127)
+			(xy 185.42 106.68) (xy 185.42 127)
 		)
 		(stroke
 			(width 0)
@@ -2096,17 +1887,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 120.65) (xy 85.09 120.65)
+			(xy 82.55 120.65) (xy 88.9 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "227a4545-da12-4c73-bc63-edf9147ba1de")
+		(uuid "2243eaf4-564c-40ab-861d-22f9be9f7f2b")
 	)
 	(wire
 		(pts
-			(xy 128.27 140.97) (xy 182.88 140.97)
+			(xy 128.27 140.97) (xy 185.42 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2146,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 135.89) (xy 203.2 140.97)
+			(xy 207.01 135.89) (xy 207.01 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 106.68) (xy 203.2 106.68)
+			(xy 215.9 106.68) (xy 207.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2253,6 +2044,36 @@
 			(type default)
 		)
 		(uuid "61c32b8a-da0f-4bab-9f17-b38089278591")
+	)
+	(wire
+		(pts
+			(xy 196.85 106.68) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f1e872-6e59-46b0-ab17-c99615530d57")
+	)
+	(wire
+		(pts
+			(xy 207.01 140.97) (xy 215.9 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671dcef8-bdca-4eb6-831d-5475b250169e")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 189.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7648d6b5-b831-4302-9ffe-7212020f4bf7")
 	)
 	(wire
 		(pts
@@ -2386,13 +2207,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 137.16) (xy 182.88 140.97)
+			(xy 83.82 92.71) (xy 88.9 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6f60cef-08f1-4a76-8811-ee026d825cee")
+		(uuid "a913c5c1-fadf-42b6-b7db-ca7f54249dc8")
 	)
 	(wire
 		(pts
@@ -2406,13 +2227,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 140.97) (xy 203.2 140.97)
+			(xy 185.42 134.62) (xy 185.42 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad4d56dd-6970-45b1-9b30-31e477da8a51")
+		(uuid "ac2c857e-9fff-45de-a80b-985a0d043e7b")
 	)
 	(wire
 		(pts
@@ -2423,16 +2244,6 @@
 			(type default)
 		)
 		(uuid "ae0d62f4-7e43-4c95-8551-911e51cf0ae9")
-	)
-	(wire
-		(pts
-			(xy 182.88 106.68) (xy 187.96 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5007c2f-1c04-4a4f-a8f1-9b8a703f202d")
 	)
 	(wire
 		(pts
@@ -2466,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 106.68) (xy 203.2 128.27)
+			(xy 207.01 106.68) (xy 207.01 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 92.71) (xy 74.93 92.71)
+			(xy 67.31 92.71) (xy 76.2 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2503,16 +2314,6 @@
 			(type default)
 		)
 		(uuid "c70a2e5d-8b84-43ed-be14-048eee9a3a0e")
-	)
-	(wire
-		(pts
-			(xy 203.2 140.97) (xy 215.9 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6c51f8-d480-4460-b222-5c654cad0c92")
 	)
 	(wire
 		(pts
@@ -2556,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 106.68) (xy 182.88 106.68)
+			(xy 176.53 106.68) (xy 185.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2583,6 +2384,16 @@
 			(type default)
 		)
 		(uuid "f453ac1f-2051-4dd3-b8b0-05549a7239d8")
+	)
+	(wire
+		(pts
+			(xy 185.42 140.97) (xy 207.01 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feebf4c6-64d3-4756-9393-ae6a78544c2e")
 	)
 	(symbol
 		(lib_id "power:+6V")
@@ -2630,7 +2441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
+		(property "Description" "Raw Battery Power"
 			(at 100.33 102.87 0)
 			(effects
 				(font
@@ -2679,7 +2490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 144.4752 116.84 0)
 			(effects
 				(font
@@ -2716,262 +2527,6 @@
 			(project "MBot"
 				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
 					(reference "CC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SS54FSH:SS54FSH")
-		(at 80.01 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19e9f743-928b-4a0e-b4c8-2d4af0fddc2e")
-		(property "Reference" "D5"
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS54FSH"
-			(at 80.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SS54FSH:SODFL4725X110N"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOD-128-2 Taiwan Semiconductor"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS54FSH/taiwan/view-part/?ref=eda"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B2103"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS54FSH/taiwan/view-part/?ref=snap"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS54FSH"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "5A, 40V, Automotive Planar Schottky"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "2026302b-3ca6-49e1-9141-95b7b6743750")
-		)
-		(pin "C"
-			(uuid "0b1a0c9f-bb2e-4734-909a-046d05c5ef6d")
-		)
-		(instances
-			(project ""
-				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 191.77 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dbc5805-3877-4eb6-b69b-b5d439b80353")
-		(property "Reference" "L1"
-			(at 191.77 98.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47u"
-			(at 191.77 101.092 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
-			(at 191.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 191.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "723d569c-861d-42ed-8bc5-07ec576672e2")
-		)
-		(pin "2"
-			(uuid "33e4f5b7-ea88-4c8b-9967-2bdb9b20f84a")
-		)
-		(instances
-			(project ""
-				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -3137,7 +2692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 216.8652 135.89 0)
 			(effects
 				(font
@@ -3181,16 +2736,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 203.2 132.08 0)
+		(at 207.01 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3d3d748e-b8bd-443b-8e56-230ce5dd1b95")
 		(property "Reference" "C18"
-			(at 207.01 130.8099 0)
+			(at 199.898 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +2753,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 207.01 133.3499 0)
+			(at 199.898 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,8 +2761,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
-			(at 204.1652 135.89 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 207.9752 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 132.08 0)
+			(at 207.01 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +2780,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 203.2 132.08 0)
+			(at 207.01 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,6 +2798,92 @@
 			(project "MBot"
 				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 78.74 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d720651-6ed6-4898-abc3-f1b5e0b5c75f")
+		(property "Reference" "D5"
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 78.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfa97b1b-e239-4662-a0c4-5df4a19168c3")
+		)
+		(pin "2"
+			(uuid "e2cb809f-3703-41f6-9883-47d9530bd498")
+		)
+		(instances
+			(project ""
+				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3343,7 +2983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.0752 118.11 0)
 			(effects
 				(font
@@ -3413,7 +3053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 230.632 115.57 90)
 			(effects
 				(font
@@ -3483,7 +3123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 230.632 129.54 90)
 			(effects
 				(font
@@ -3520,6 +3160,94 @@
 			(project ""
 				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
 					(reference "R901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 185.42 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99ae6539-e2f7-4248-80aa-5482c8d61b00")
+		(property "Reference" "D6"
+			(at 187.96 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 187.96 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 185.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 185.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d694e34-0d76-448a-9a97-0b6064f02771")
+		)
+		(pin "1"
+			(uuid "bb48ee0e-b269-477d-8e76-fb62fcb8b8c4")
+		)
+		(instances
+			(project ""
+				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3586,197 +3314,6 @@
 			(project "MBot"
 				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SS54FSH:SS54FSH")
-		(at 182.88 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a40fb5ee-5482-49bd-9c1e-ab4610460783")
-		(property "Reference" "D6"
-			(at 185.42 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS54FSH"
-			(at 185.42 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SS54FSH:SODFL4725X110N"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOD-128-2 Taiwan Semiconductor"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS54FSH/taiwan/view-part/?ref=eda"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B2103"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS54FSH/taiwan/view-part/?ref=snap"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS54FSH"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "5A, 40V, Automotive Planar Schottky"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "2026302b-3ca6-49e1-9141-95b7b6743750")
-		)
-		(pin "C"
-			(uuid "0b1a0c9f-bb2e-4734-909a-046d05c5ef6d")
-		)
-		(instances
-			(project ""
-				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3876,7 +3413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 129.2352 120.65 0)
 			(effects
 				(font
@@ -3946,7 +3483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 108.9152 120.65 0)
 			(effects
 				(font
@@ -3983,195 +3520,6 @@
 			(project ""
 				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
 					(reference "Cin1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SS54FSH:SS54FSH")
-		(at 80.01 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfa0b054-116e-475f-aea1-1823e368f122")
-		(property "Reference" "D4"
-			(at 80.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS54FSH"
-			(at 80.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SS54FSH:SODFL4725X110N"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOD-128-2 Taiwan Semiconductor"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS54FSH/taiwan/view-part/?ref=eda"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B2103"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS54FSH/taiwan/view-part/?ref=snap"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS54FSH"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "5A, 40V, Automotive Planar Schottky"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "2026302b-3ca6-49e1-9141-95b7b6743750")
-		)
-		(pin "C"
-			(uuid "0b1a0c9f-bb2e-4734-909a-046d05c5ef6d")
-		)
-		(instances
-			(project ""
-				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4247,6 +3595,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 80.01 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dff13216-194e-4cc4-b016-413bd5f3f908")
+		(property "Reference" "D4"
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 80.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 80.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 80.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 80.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfa97b1b-e239-4662-a0c4-5df4a19168c4")
+		)
+		(pin "2"
+			(uuid "e2cb809f-3703-41f6-9883-47d9530bd499")
+		)
+		(instances
+			(project ""
+				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch_Pin3Ring")
 		(at 59.69 95.25 0)
 		(unit 1)
@@ -4312,6 +3746,74 @@
 			(project ""
 				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 193.04 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7c443dc-9ffc-45aa-8bab-c860bd94a8e9")
+		(property "Reference" "L1"
+			(at 193.04 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47u"
+			(at 193.04 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP1245A"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37b748c6-5010-4dda-b4e9-4f14c1112243")
+		)
+		(pin "2"
+			(uuid "22d220c5-a9f9-4867-bf90-eccb6f41d825")
+		)
+		(instances
+			(project ""
+				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/a88ddb6b-cc41-492b-93c7-66f0e56b5e49"
+					(reference "L1")
 					(unit 1)
 				)
 			)
