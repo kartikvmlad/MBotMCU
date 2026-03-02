@@ -91,7 +91,7 @@ If fabricating this board from the provided Gerbers, strictly adhere to the foll
 2.  **Inductor (L1):** Footprint requires a **Shielded Power Inductor** (e.g., CDRH127) rated for **Isat > 5A**.
 3.  **Capacitors:**
     * **Cout1:** 330µF/25V Electrolytic Low-ESR is mandatory for 6.5V rail stability.
-    * **CC1:** Ensure 1µF ceramic is placed between XL4015 Pin 5 (VIN) and Pin 4 (VC).
+    
 
 ---
 
