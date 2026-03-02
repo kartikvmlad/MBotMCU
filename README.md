@@ -1,6 +1,6 @@
 # Astra Robotics Controller (ARC-2040)
 
-![Hardware Version](https://img.shields.io/badge/Hardware_Version-v1.2-blue) ![Status](https://img.shields.io/badge/Status-Verified-success) ![MCU](https://img.shields.io/badge/MCU-RP2040-red)
+![Hardware Version](https://img.shields.io/badge/Hardware_Version-v2-blue) ![Status](https://img.shields.io/badge/Status-Verified-success) ![MCU](https://img.shields.io/badge/MCU-RP2040-red)
 
 **A high-performance embedded control board designed for autonomous mobile robotics.**
 
