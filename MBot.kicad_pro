@@ -759,6 +759,14 @@
       "version": 1
     },
     "net_format_name": "KiCad",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -807,10 +815,6 @@
     [
       "a88ddb6b-cc41-492b-93c7-66f0e56b5e49",
       "Switching Regulator"
-    ],
-    [
-      "a0ec20ef-efc0-4209-a0c3-fa7abe5a4ebb",
-      "LDO Regulator"
     ],
     [
       "9d9017c4-6037-4187-819d-cbe052ef4496",

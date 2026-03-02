@@ -6,13 +6,15 @@
 	(paper "A4")
 	(title_block
 		(title "Motor Control ")
+		(date "2026-02-28")
+		(rev "2")
 		(company "Astra Robotics")
 		(comment 1 "Kartik Lad")
 	)
 	(lib_symbols)
 	(sheet
-		(at 53.34 62.23)
-		(size 29.21 20.32)
+		(at 16.51 132.08)
+		(size 30.48 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27,7 +29,7 @@
 		)
 		(uuid "059681be-d3b0-48ae-add7-454a2ac10bec")
 		(property "Sheetname" "Current Sensing Filter"
-			(at 53.34 61.5184 0)
+			(at 16.51 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "CurrentSensing.kicad_sch"
-			(at 53.34 83.1346 0)
+			(at 16.51 166.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,8 +55,8 @@
 		)
 	)
 	(sheet
-		(at 219.71 72.39)
-		(size 57.15 21.59)
+		(at 52.07 87.63)
+		(size 31.75 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -69,7 +71,7 @@
 		)
 		(uuid "1a30a45a-93c4-41ed-bf94-ec4ea067c430")
 		(property "Sheetname" "IMU - Accelerometer + Magnetometer"
-			(at 219.71 71.6784 0)
+			(at 52.07 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78,7 +80,7 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 219.71 94.5646 0)
+			(at 52.07 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,8 +97,8 @@
 		)
 	)
 	(sheet
-		(at 243.84 19.05)
-		(size 33.02 15.24)
+		(at 20.32 177.8)
+		(size 13.97 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -111,7 +113,7 @@
 		)
 		(uuid "72d6f831-c975-4fd9-b56c-1adb5b5a2d8c")
 		(property "Sheetname" "FRAM Storage"
-			(at 243.84 18.3384 0)
+			(at 20.32 177.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +122,7 @@
 			)
 		)
 		(property "Sheetfile" "FRAM.kicad_sch"
-			(at 243.84 34.8746 0)
+			(at 20.32 191.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,8 +139,8 @@
 		)
 	)
 	(sheet
-		(at 184.15 19.05)
-		(size 55.88 46.99)
+		(at 134.62 19.05)
+		(size 63.5 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -153,7 +155,7 @@
 		)
 		(uuid "808c72cd-00eb-4300-ae98-61568cc29b15")
 		(property "Sheetname" "Motor Drivers"
-			(at 184.15 18.3384 0)
+			(at 134.62 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -162,7 +164,7 @@
 			)
 		)
 		(property "Sheetfile" "MotorDrivers.kicad_sch"
-			(at 184.15 66.6246 0)
+			(at 134.62 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,8 +181,8 @@
 		)
 	)
 	(sheet
-		(at 219.71 100.33)
-		(size 57.15 22.86)
+		(at 16.51 87.63)
+		(size 29.21 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -195,7 +197,7 @@
 		)
 		(uuid "855ef35f-5536-4835-b00c-973478da092d")
 		(property "Sheetname" "External Ports"
-			(at 219.71 99.6184 0)
+			(at 16.51 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -204,7 +206,7 @@
 			)
 		)
 		(property "Sheetfile" "ExternalPorts.kicad_sch"
-			(at 219.71 123.7746 0)
+			(at 16.51 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -221,8 +223,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 41.91)
-		(size 29.21 10.16)
+		(at 93.98 179.07)
+		(size 16.51 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -237,7 +239,7 @@
 		)
 		(uuid "9d9017c4-6037-4187-819d-cbe052ef4496")
 		(property "Sheetname" "Motor Voltage Select Jumper"
-			(at 53.34 41.1984 0)
+			(at 93.98 178.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -246,7 +248,7 @@
 			)
 		)
 		(property "Sheetfile" "MotorVoltageSelectJumper.kicad_sch"
-			(at 53.34 52.6546 0)
+			(at 93.98 189.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,50 +265,8 @@
 		)
 	)
 	(sheet
-		(at 19.05 139.7)
-		(size 63.5 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a0ec20ef-efc0-4209-a0c3-fa7abe5a4ebb")
-		(property "Sheetname" "LDO Regulator"
-			(at 19.05 138.9884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "LDO.kicad_sch"
-			(at 19.05 168.2246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "MBot"
-				(path "/6379cb09-8427-484b-8caa-23471c63c9c8"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 242.57 40.64)
-		(size 34.29 25.4)
+		(at 73.66 19.05)
+		(size 58.42 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -321,7 +281,7 @@
 		)
 		(uuid "a88ddb6b-cc41-492b-93c7-66f0e56b5e49")
 		(property "Sheetname" "Switching Regulator"
-			(at 242.57 39.9284 0)
+			(at 73.66 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,7 +290,7 @@
 			)
 		)
 		(property "Sheetfile" "SwitchingRegulator.kicad_sch"
-			(at 242.57 66.6246 0)
+			(at 73.66 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,8 +307,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 21.59)
-		(size 29.21 11.43)
+		(at 55.88 177.8)
+		(size 15.24 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -363,7 +323,7 @@
 		)
 		(uuid "bdb58866-0c46-4246-93d7-52944707f781")
 		(property "Sheetname" "VMOT Sense Divider"
-			(at 53.34 20.8784 0)
+			(at 55.88 177.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -372,7 +332,7 @@
 			)
 		)
 		(property "Sheetfile" "VMOTSenseDivider.kicad_sch"
-			(at 53.34 33.6046 0)
+			(at 55.88 191.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -389,8 +349,8 @@
 		)
 	)
 	(sheet
-		(at 19.05 20.32)
-		(size 29.21 33.02)
+		(at 53.34 132.08)
+		(size 30.48 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -405,7 +365,7 @@
 		)
 		(uuid "e50fae86-9303-4cf0-b6d2-61e05b28e262")
 		(property "Sheetname" "TF Card"
-			(at 19.05 19.6084 0)
+			(at 53.34 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,7 +374,7 @@
 			)
 		)
 		(property "Sheetfile" "TFcard.kicad_sch"
-			(at 19.05 53.9246 0)
+			(at 53.34 166.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,8 +391,8 @@
 		)
 	)
 	(sheet
-		(at 19.05 88.9)
-		(size 63.5 43.18)
+		(at 16.51 19.05)
+		(size 54.61 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -447,7 +407,7 @@
 		)
 		(uuid "fba4b5c3-a0b5-43e7-8123-1a188b00f5ab")
 		(property "Sheetname" "RP2040"
-			(at 19.05 88.1884 0)
+			(at 16.51 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,7 +416,7 @@
 			)
 		)
 		(property "Sheetfile" "RP2040.kicad_sch"
-			(at 19.05 132.6646 0)
+			(at 16.51 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)

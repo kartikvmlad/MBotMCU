@@ -1,52 +1,54 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
-"C1,C18,C108,CC1","4","1u","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"C2,C5,C7","3","22n","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"C3,C4,C6,C13","4","220n","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"C8,C9,C10,C11,C16,C105,C106,C107,C109,C110,C111,C112,C113,C114,C115,C120","16","100n","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"C12","1","2.2n","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"C14,C15","2","22u","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"C17","1","100u","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"C101,C104,C117","3","10u","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"C102,C103","2","15p","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"CFF1","1","33n","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"Cin1","1","220u","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"Cout1","1","330u","","","","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"
-"D1,D2,D3","3","LED","","","","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"D4,D5,D6","3","SS54FSH","","","","SS54FSH:SODFL4725X110N",""
-"D101,D102","2","1N5817","","","","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal","http://www.vishay.com/docs/88525/1n5817.pdf"
-"F1","1","Fuse","","","","Fuse:Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder","~"
-"FB1","1","FerriteBead","","","","Inductor_SMD:L_6.3x6.3_H3","~"
-"J1","1","Micro_SD_Card_Det1","","","","Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5","https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
-"J2","1","Barrel_Jack_Switch_Pin3Ring","","","","Connector_BarrelJack:BarrelJack_Horizontal","~"
-"J3","1","Screw_Terminal_01x02","","","","TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm","~"
-"J4,J16","2","Conn_01x03","","","","Connector:FanPinHeader_1x03_P2.54mm_Vertical","~"
-"J5,J6,J7,J11,J12,J17","6","Conn_01x06","","","","Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical","~"
-"J8,J9,J10,J13,J14,J15","6","Conn_01x04","","","","Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical","~"
-"JUSBC1","1","USB_C_Receptacle_USB2.0_16P","","","","Connector_USB:USB_C_Receptacle_GCT_USB4085","https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-"L1","1","47u","","","","Inductor_SMD:L_12x12mm_H8mm","~"
-"R2,R5,R7,R9,R12,R14","6","1k","","","","Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder","~"
-"R3,R8,R13,R32","4","10k","","","","Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder","~"
-"R4,R11,R16","3","220","","","","Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder","~"
-"R6,R10,R15","3","20k","","","","Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder","~"
-"R17,R18,R19","3","1.8k","","","","Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder","~"
-"R23,R24","2","4.7k","","","","Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder","~"
-"R27","1","47k","","","","Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder","~"
-"R101,R105","2","1k","","","","Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder","~"
-"R109,RUSB1","2","5.1k","","","","Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder","~"
-"R901","1","10k","","","","Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder","~"
-"R902","1","42k","","","","Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder","~"
-"RDminus1,RDplus1","2","27","","","","Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder","~"
-"SW1,SW2,SW3","3","SW_SPDT","","","","Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG","~"
-"SW4,SWRESET?","2","SW_SPST","","","","","~"
-"U1","1","74AUC1G19","","","","Package_TO_SOT_SMD:SOT-23-6_Handsoldering","http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-"U2","1","XL4015","","","","Package_TO_SOT_SMD:TO-263-5_TabPin3","http://www.xlsemi.net/datasheet/XL4015%20datasheet-English.pdf"
-"U3","1","FM24W256","","","","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.cypress.com/file/41651/download"
-"U4","1","AMS1117-5.0","","","","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-"UBarometer1","1","BMP280","","","","Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
-"UDRV1,UDRV2,UDRV3","3","DRV8876PWPR","","","","DRV8876PWPR:IC_DRV8876PWPR",""
-"UESD1","1","USBLC6-2SC6","","","","Package_TO_SOT_SMD:SOT-23-6","https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-"UFlashMem1","1","W25Q16JVSS","","","","Package_SO:SOIC-8_5.3x5.3mm_P1.27mm","https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
-"UIMU1","1","MPU-9150","","","","Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm","https://www.invensense.com/wp-content/uploads/2015/02/MPU-9150-Datasheet.pdf"
-"ULDO1","1","NCP1117-3.3_SOT223","","","","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-"URP2040","1","RP2040","","","","Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm","https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
-"YCrystalOscillator1","1","ABM8-272-T3","","","","ABM8-272-T3:XTAL_ABM8-272-T3",""
+Reference,Qty,Value,Cost (per piece),Total Comp cost,Site ,Link to buy ,Footprint,Datasheet,
+"C1,C14,C101,C104,C117",5,10u,? 1.34,? 6.70,Robu,https://robu.in/product/0805x106k250nt-fh-25v-10uf-x5r%c2%b110-0805-multilayer-ceramic-capacitors-mlcc-smd-smt-rohs/,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,
+"C2,C5,C7",3,22n,? 0.68,? 2.04,Robu,https://robu.in/product/22nf-0603-surface-mount-multilayer-ceramic-capacitor-pack-of-50/,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,
+"C3,C4,C6,C13",4,220n,? 0.60,? 2.40,Robu,https://robu.in/product/220nf-0603-surface-mount-multilayer-ceramic-capacitor-pack-of-40/,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,
+"C8,C22,C23",3,10n,? 0.63,? 1.89,Robu,https://robu.in/product/10nf-0603-surface-mount-multilayer-ceramic-capacitor-pack-of-50/,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,
+"C9,C10,C11,C15,C16,C18,C19,C20,C105,C106,C107,C109,C110,C111,C112,C113,C114,C115,C120",19,100n,? 0.30,? 5.70,Robu,https://robu.in/product/100nf-0603-surface-mount-multilayer-ceramic-capacitor-pack-of-40/,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,
+C12,1,2.2n,? 0.42,? 0.42,Robu,https://robu.in/product/2-2nf-0603-surface-mount-multilayer-ceramic-capacitor-pack-of-50/,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,
+C17,1,100u,,? 0.00,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,
+"C21,C108",2,1u,? 0.55,? 1.10,Robu,https://robu.in/product/0603b105k160nt-fh-16v-1uf-x7r%c2%b110-0603-multilayer-ceramic-capacitors-mlcc-smd-smt-rohs/,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,
+"C102,C103",2,15p,? 0.24,? 0.48,Robu,https://robu.in/product/ac0603jrnpo9bn150-yageo-cap-ceramic-15pf-50v-c0g-5-pad-smd-0603-125c-automotive-aec-q200-t-r/,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,
+CFF1,1,33n,? 0.68,? 0.68,Robu,https://robu.in/product/33nf-0603-surface-mount-multilayer-ceramic-capacitor-pack-of-50/,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,
+Cin1,1,220u,,? 0.00,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,
+"Cout1,Cout2",2,22u,,? 0.00,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,
+"D1,D2,D3",3,LED,? 1.18,? 3.54,Robu,https://robu.in/product/0805-surface-mount-led-red-50-pcs/,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,
+"D4,D5",2,SS54B,? 6.00,? 12.00,Robu,https://robu.in/product/ss54b-slkor-40v-550mv5a-5a-smbdo-214aa-schottky-diodes-rohs/,SS54B:DIOM4336X244N,,
+"D6,D7,D8",3,WS2812B-2020,? 8.00,? 24.00,Robu,https://robu.in/product/sme-ws2812b-2020-addressable-rgb-pixel-led-worldsemi/,LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm,https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf,
+"D101,D102",2,SS14,? 1.35,? 2.70,Robu,https://robu.in/product/ss14-slkor-40v-550mv1a-1a-smado-214ac-schottky-diodes-rohs/,Diode_SMD:D_SMA_Handsoldering,https://www.vishay.com/docs/88746/ss12.pdf,
+F1,1,Fuse,? 33.00,? 33.00,Robu,https://robu.in/product/01550900m-littelfuse-smd5-0x9-7mm-fuseholders-rohs/,Fuse:Fuse_Littelfuse-NANO2-451_453,~,
+FB1,1,FerriteBead,? 4.67,? 4.67,Robu,https://robu.in/product/blm21bb201sn1d-murata-ferrite-bead-0805-2012-metric-200-ohm-500-ma-blm21b-0-26-ohm-%c2%b1-25/,Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder,~,
+J1,1,Micro_SD_Card_Det1,,? 0.00,,,Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5,https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf,
+J2,1,Barrel_Jack_Switch_Pin3Ring,,? 0.00,,,Connector_BarrelJack:BarrelJack_Horizontal,~,
+"J3,J5,J6,J7",4,Screw_Terminal_01x02,,? 0.00,,,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",~,
+J4,1,Conn_01x03,,? 0.00,,,Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical,~,
+"J8,J9,J10,J12,J13,J14,J15,J17",8,Conn_01x04,,? 0.00,,,Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical,~,
+J11,1,Conn_02x06_Odd_Even,,? 0.00,,,Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical,~,
+J16,1,Conn_01x06,,? 0.00,,,Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical,~,
+JUSBC1,1,USB_C_Receptacle_USB2.0_16P,,? 0.00,,,Connector_USB:USB_C_Receptacle_GCT_USB4085,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,
+L1,1,3.3u,? 11.00,? 11.00,Robu,https://robu.in/product/srp7050ta-3r3m-bourns-power-inductor-smd-3-3-%c2%b5h-8-a-shielded-12-a/,Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm,~,
+R1,1,100k,? 1.38,? 1.38,Robu,https://robu.in/product/aa0603jr-07100kl-yageo-100mw-thick-film-resistors-75v-%c2%b15-%c2%b1150ppm-%e2%84%83-100k%cf%89-0603-chip-resistor-surface-mount-rohs/,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+"R2,R5,R7,R9,R12,R14,R101,R105",8,1k,? 0.35,? 2.80,Robu,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+"R3,R8,R13,R32,R901",5,10k,? 0.35,? 1.75,Robu,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+"R4,R11,R16",3,220,? 0.35,? 1.05,Robu,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+"R6,R10,R15",3,20k,? 0.30,? 0.90,Robu,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+"R17,R18,R19",3,330,? 0.46,? 1.38,Robu,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+"R23,R24",2,4.7k,? 0.35,? 0.70,Robu,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+R27,1,47k,? 0.35,? 0.35,Robu,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+"R109,RUSB1",2,5.1k,? 0.32,? 0.64,Robu,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+R902,1,75k,? 0.44,? 0.44,Robu,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+"RDminus1,RDplus1",2,27,? 0.82,? 1.64,Robu,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,0805 only
+"SW4,SWRESET1",2,SW_SPST,,? 0.00,,,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,~,
+U1,1,74AUC1G19,? 16.00,? 16.00,Robu,,Package_TO_SOT_SMD:SOT-23-6_Handsoldering,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,
+U2,1,TPS565201DDCR,? 11.00,? 11.00,Robu,,TPS565201DDCR:SOT95P280X110-6N,,sus looking robu
+U3,1,FM24W256,? 207.00,? 207.00,Robu,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.cypress.com/file/41651/download,
+U4,1,TMUX1574PW,? 37.00,? 37.00,Robu,,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,https://www.ti.com/lit/ds/symlink/tmux1574.pdf,
+UBarometer1,1,BMP280,? 33.00,? 33.00,,,Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering,https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf,header pins needed
+"UDRV1,UDRV2,UDRV3",3,DRV8876PWPR,? 189.00,? 567.00,Lion Ckt,https://www.lioncircuits.com/parts/DRV8876PWPR?srsltid=AfmBOoplImu60YpgGPHfI1BdeeElkbP1sitGmGD82vn0IgReCouVstWzt5k,DRV8876PWPR:IC_DRV8876PWPR,,
+UESD1,1,USBLC6-2SC6,? 6.00,? 6.00,Robu,,Package_TO_SOT_SMD:SOT-23-6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,
+UFlashMem1,1,W25Q16JVSS,? 51.00,? 51.00,Robu,,Package_SO:SOIC-8_5.3x5.3mm_P1.27mm,https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1,
+UIMU1,1,MPU-9150,,? 0.00,Robu,,Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm,https://www.invensense.com/wp-content/uploads/2015/02/MPU-9150-Datasheet.pdf,
+ULDO1,1,NCP1117-3.3_SOT223,? 23.00,? 23.00,Robu,,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF,
+URP2040,1,RP2040,? 80.00,? 80.00,Robu,,Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf,
+YCrystalOscillator1,1,ABM8-272-T3,? 65.00,? 65.00,Robu,,ABM8-272-T3:XTAL_ABM8-272-T3,,
+,,,,,,,,,
+,,,,"? 1,221.35",,,,,

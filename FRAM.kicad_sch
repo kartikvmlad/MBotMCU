@@ -464,6 +464,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 96.52 55.88)
+		(end 146.05 99.06)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c3ef5ff-f86e-4291-9fd3-7cc9ec8919a0)
+	)
+	(text "Current address 0x50\nSupports 100 trillion writes\n"
+		(exclude_from_sim no)
+		(at 122.174 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce0d8511-145a-4400-883a-1c532760be66")
+	)
 	(junction
 		(at 107.95 73.66)
 		(diameter 0)

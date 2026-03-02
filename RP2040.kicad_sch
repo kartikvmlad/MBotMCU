@@ -7976,28 +7976,6 @@
 			)
 		)
 	)
-	(global_label "GPIO24"
-		(shape input)
-		(at 226.06 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7bfcbada-da8e-4c05-8b87-ed86dba643a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.9395 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 195.58 157.48 0)
@@ -8011,28 +7989,6 @@
 		(uuid "7ce72c2b-65e9-4174-bdba-d77a4e3e7c12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.7942 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO25"
-		(shape input)
-		(at 226.06 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d3f62a0-6019-481a-b537-6be2199441a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.9395 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,6 +8033,28 @@
 		(uuid "a2361f65-126f-41fc-9560-031784d39802")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 281.5385 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO24"
+		(shape input)
+		(at 226.06 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2656ba2-073f-4fe6-9302-fe1dd5563071")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.9395 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,6 +8143,50 @@
 		(uuid "c967a200-8d07-41d1-9f62-64067dcfc772")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.2685 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO25"
+		(shape input)
+		(at 226.06 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c98826e3-6ce4-449a-8f56-f7fb5671972a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.9395 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_S0"
+		(shape input)
+		(at 226.06 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9b76c64-2fe0-46bf-9b14-aaaed40abdbb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.4232 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8306,28 +8328,6 @@
 			)
 		)
 	)
-	(global_label "GPIO23"
-		(shape input)
-		(at 226.06 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8895361-5afb-442d-8566-556adbe98d2d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.9395 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC2"
 		(shape input)
 		(at 271.78 93.98 0)
@@ -8439,6 +8439,72 @@
 			(project ""
 				(path "/7f061156-549e-4e6d-983b-5cde95f8d078"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 95.25 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "020d9391-7d84-496d-a03d-6800cb93ff32")
+		(property "Reference" "#PWR062"
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7f3fc72-b81b-4b50-ba88-42ff78be53c8")
+		)
+		(instances
+			(project "MBot"
+				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/fba4b5c3-a0b5-43e7-8123-1a188b00f5ab"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9305,7 +9371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 84.7852 39.37 0)
 			(effects
 				(font
@@ -9946,7 +10012,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 79.375 24.13 0)
 			(effects
 				(font
@@ -10541,7 +10607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 108.9152 39.37 0)
 			(effects
 				(font
@@ -12045,72 +12111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 95.25 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a78e2eaf-3bf3-4273-b70d-4b14b9229d91")
-		(property "Reference" "#PWR062"
-			(at 95.25 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 95.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "066be8be-ece1-4b28-b23c-605a49e3abc2")
-		)
-		(instances
-			(project "MBot"
-				(path "/6379cb09-8427-484b-8caa-23471c63c9c8/fba4b5c3-a0b5-43e7-8123-1a188b00f5ab"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:SS14")
 		(at 68.58 29.21 180)
 		(unit 1)
@@ -12136,7 +12136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 68.58 24.765 0)
 			(effects
 				(font
@@ -12735,7 +12735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 162.2552 180.34 0)
 			(effects
 				(font

@@ -305,6 +305,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 93.98 87.63)
+		(end 146.05 124.46)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 780209ea-31ac-4024-98b0-d35fcc296ef2)
+	)
+	(text "Will be a shorting jumper \nShorting 2 & 1 provides raw unregulated power \nShorting 2 & 3 provides regulated constant 6.5V "
+		(exclude_from_sim no)
+		(at 121.158 117.856 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cbd11583-f25e-4c28-b09c-26124e73b0c4")
+	)
 	(wire
 		(pts
 			(xy 106.68 100.33) (xy 106.68 106.68)
@@ -525,7 +548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical"
 			(at 127 106.68 0)
 			(effects
 				(font
